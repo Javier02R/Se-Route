@@ -1,7 +1,0 @@
-{
-  "name": "SeRouter",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}

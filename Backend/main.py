@@ -1,6 +1,17 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+# Configuración de CORS
+origins = ["http://localhost", "http://localhost:8100"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Diccionario de preguntas y soluciones (esto podría ser reemplazado por una base de datos)
 soluciones_por_pregunta = {
@@ -9,7 +20,7 @@ soluciones_por_pregunta = {
     # ... Agrega más preguntas y soluciones según sea necesario
 }
 
-@app.get("/preguntas/{pregunta}")
+@app.get("/tab1/{pregunta}")
 def obtener_solucion(pregunta: str):
     # Buscar la solución para la pregunta en el diccionario
     solucion = soluciones_por_pregunta.get(pregunta)
