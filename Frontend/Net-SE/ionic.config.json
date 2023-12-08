@@ -1,0 +1,7 @@
+{
+  "name": "Net-SE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
