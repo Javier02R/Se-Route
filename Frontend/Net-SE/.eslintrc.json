@@ -5,7 +5,7 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["tsconfig.json"],
+        "project": ["Frontend/Net-SE/tsconfig.json"],
         "createDefaultProgram": true
       },
       "extends": [

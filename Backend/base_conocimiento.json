@@ -1,0 +1,13 @@
+{
+    "problemas": [
+      {
+        "pregunta": "no tengo internet",
+        "solucion": "Verifica que el cable este conectado correctamente. Reinicia el router y el modem."
+      },
+      {
+        "pregunta": "internet lento",
+        "solucion": "Verifica la velocidad de tu conexion. Considera cambiar a una conexión por cable en lugar de inalambrica."
+      }
+    ]
+  }
+  

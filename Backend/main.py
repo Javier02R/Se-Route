@@ -1,5 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+import json
+from fuzzywuzzy import process
 
 app = FastAPI()
 
@@ -13,17 +15,23 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Diccionario de preguntas y soluciones (esto podría ser reemplazado por una base de datos)
-soluciones_por_pregunta = {
-    "No puedo conectarme a Internet": "1. Verifica que el cable esté conectado correctamente.\n2. Reinicia el router y el módem.",
-    "Mi conexión es lenta": "1. Verifica la velocidad de tu conexión.\n2. Considera cambiar a una conexión por cable en lugar de inalámbrica.",
-    # ... Agrega más preguntas y soluciones según sea necesario
-}
+# Cargar la base de conocimientos desde el archivo JSON
+with open('base_conocimiento.json', 'r') as file:
+    base_conocimiento = json.load(file)
+
+# Función para buscar la mejor coincidencia en la base de conocimientos
+def buscar_solucion(pregunta: str):
+    preguntas = [problema["pregunta"] for problema in base_conocimiento["problemas"]]
+    pregunta_cercana, _ = process.extractOne(pregunta, preguntas)
+    for problema in base_conocimiento["problemas"]:
+        if problema["pregunta"] == pregunta_cercana:
+            return problema["solucion"]
+    return None
 
 @app.get("/tab1/{pregunta}")
 def obtener_solucion(pregunta: str):
-    # Buscar la solución para la pregunta en el diccionario
-    solucion = soluciones_por_pregunta.get(pregunta)
+    # Buscar la solución para la pregunta en la base de conocimientos
+    solucion = buscar_solucion(pregunta)
 
     # Si no se encuentra una solución, lanzar una excepción 404 (Not Found)
     if solucion is None:
