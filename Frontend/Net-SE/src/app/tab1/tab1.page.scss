@@ -1,0 +1,14 @@
+ion-img {
+    display: block;
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+    max-width: 100px; /* Establece el ancho máximo de la imagen */
+    width: 100%; /* Hace que la imagen sea responsiva */
+  }
+
+  .logo-title {
+    font-family: 'Times New Roman', serif;
+    color: blue;
+    font-weight: bold;
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 10px; /* Espaciado superior para separar la imagen del título */
+  }
