@@ -2,7 +2,8 @@
     "problemas": [
       {
         "pregunta": "no tengo internet",
-        "solucion": "Verifica que el cable este conectado correctamente. Reinicia el router y el modem."
+        "solucion": "Verifica que el cable este conectado correctamente. Reinicia el router y el modem.",
+        "image": "penonome.webp" 
       },
       {
         "pregunta": "internet lento",
@@ -83,11 +84,7 @@
       {
         "pregunta": "¿Qué hacer si experimento desconexiones al transmitir videos o hacer videollamadas?",
         "solucion": "Asegúrate de tener suficiente ancho de banda, verifica la configuración de QoS, y considera priorizar el tráfico de video en la red."
-      },
-      
-      
-      
-    }
+      }
     ]
   }
   
