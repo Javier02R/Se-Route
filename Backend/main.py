@@ -25,20 +25,17 @@ def buscar_solucion(pregunta: str):
     pregunta_cercana, _ = process.extractOne(pregunta, preguntas)
     for problema in base_conocimiento["problemas"]:
         if problema["pregunta"] == pregunta_cercana:
-            return problema["solucion"], problema["image"]
+            return problema["solucion"]
     return None
 
 @app.get("/tab1/{pregunta}")
 def obtener_solucion(pregunta: str):
     # Buscar la solución para la pregunta en la base de conocimientos
-    solucion, image = buscar_solucion(pregunta)
+    solucion = buscar_solucion(pregunta)
 
     # Si no se encuentra una solución, lanzar una excepción 404 (Not Found)
     if solucion is None:
         raise HTTPException(status_code=404, detail="Pregunta no encontrada")
 
     # Devolver la solución en formato JSON
-    return {"solucion": solucion, "imagen":
-            f"/static/{image}"}
-
-
+    return {"solucion": solucion}
