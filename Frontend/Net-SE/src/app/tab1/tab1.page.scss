@@ -10,10 +10,20 @@ ion-img {
   padding-top: 25px;
   padding-bottom: 15px;
 }
+
 .logo-title {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center; /* Centra el texto horizontalmente */
   margin-top: 10px; /* Espaciado superior para separar la imagen del título */
+}
+
+ion-button {
+  display: block;
+  margin: 0 auto; /* Centra el botón horizontalmente */
+  margin-top: 20px; /* Espaciado superior para separar del contenido anterior */
+  font-size: 1.5em; /* Tamaño de fuente del botón */
+  max-width: 200px; /* Ancho máximo del botón */
+  width: 100%; /* Hace que el botón sea responsivo */
 }

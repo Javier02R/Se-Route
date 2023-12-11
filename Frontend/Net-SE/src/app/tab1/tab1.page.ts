@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  iniciar() {
+    // Puedes agregar lógica aquí si es necesario
+    console.log('Botón "Iniciar" presionado');
 
+  }
 }
