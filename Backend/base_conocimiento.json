@@ -3,7 +3,7 @@
       {
         "pregunta": "no tengo internet",
         "solucion": "Verifica que el cable este conectado correctamente. Reinicia el router y el modem.",
-        "image": "penonome.webp" 
+        "image": "reboot.webp" 
       },
       {
         "pregunta": "internet lento",

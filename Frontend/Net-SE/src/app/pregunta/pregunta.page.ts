@@ -9,6 +9,7 @@ import { FastapiService } from '../services/fastapi.service';
 export class PreguntaPage {
   pregunta: string = '';
   solucion: string = '';
+  imageUrl: string = '';
 
   constructor(private fastapiService: FastapiService) {}
 
@@ -17,6 +18,7 @@ export class PreguntaPage {
       .subscribe(
         (data: any) => {
           this.solucion = data.solucion;
+          this.imageUrl = data.image; 
         },
         (error) => {
           console.error('Error al obtener la solución', error);
