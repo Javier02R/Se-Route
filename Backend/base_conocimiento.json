@@ -7,7 +7,87 @@
       {
         "pregunta": "internet lento",
         "solucion": "Verifica la velocidad de tu conexion. Considera cambiar a una conexión por cable en lugar de inalambrica."
-      }
+      },
+      {
+        "pregunta": "¿Cómo puedo mejorar la velocidad de mi conexión Wi-Fi?",
+        "solucion": "Considera la posibilidad de actualizar a un router más reciente y compatible con estándares Wi-Fi modernos para obtener velocidades más altas."
+      },
+      {
+        "pregunta": "¿Cómo mejoro la seguridad de mi red Wi-Fi?",
+        "solucion": "Usa una contraseña segura, habilita la encriptación WPA3, y cambia el nombre predeterminado de la red (SSID)."
+      },
+      {
+        "pregunta": "¿Cómo soluciono problemas de asignación de direcciones IP?",
+        "solucion": "Verifica la configuración del servidor DHCP, evita conflictos de direcciones IP, y considera la renovación manual de direcciones IP en los dispositivos."
+      },
+      {
+        "pregunta": "¿Qué hacer si olvidé la contraseña de mi red Wi-Fi?",
+        "solucion": "Restablece el router a la configuración de fábrica y configura una nueva contraseña. La información de inicio de sesión suele estar en la etiqueta del router."
+      },
+      {
+        "pregunta": "¿Cómo sé si mi router ha sido comprometido?",
+        "solucion": "Monitorea el tráfico inusual, cambia las contraseñas regularmente, y mantén el firmware actualizado para prevenir vulnerabilidades."
+      },
+      {
+        "pregunta": "¿Cómo soluciono problemas de conectividad en un dispositivo específico?",
+        "solucion": "Reinicia el dispositivo, olvida y vuelve a conectar la red Wi-Fi, o verifica si hay problemas de configuración en el dispositivo."
+      },
+      {
+        "pregunta": "¿Cómo evito interferencias de otras redes Wi-Fi cercanas?",
+        "solucion": "Cambia el canal de transmisión del router y utiliza una banda de frecuencia menos congestionada."
+      },
+      {
+        "pregunta": "¿Cómo soluciono problemas de DNS?",
+        "solucion": "Cambia los servidores DNS, reinicia el router y el dispositivo, o verifica la configuración de red en el router."
+      },
+      {
+        "pregunta": "¿Qué hacer si hay cortes de energía frecuentes?",
+        "solucion": "Usa un respaldo de energía para el router, considera un regulador de voltaje y verifica si hay problemas eléctricos en la instalación."
+      },
+      {
+        "pregunta": "¿Qué hacer si el router se calienta demasiado?",
+        "solucion": "Asegúrate de que el router esté bien ventilado, evita colocarlo cerca de fuentes de calor y considera la posibilidad de añadir enfriamiento adicional si es necesario."
+      },
+      {
+        "pregunta": "¿Qué hacer si las luces del router parpadean de manera anormal?",
+        "solucion": "Consulta el manual del router para interpretar las luces, verifica la conexión de cables y considera reiniciar el router."
+      },
+      {
+        "pregunta": "¿Cómo soluciono problemas de conexión en dispositivos móviles?",
+        "solucion": "Reinicia el dispositivo, olvida y vuelve a conectar la red Wi-Fi, o verifica si hay actualizaciones de software disponibles."
+      },
+      {
+        "pregunta": " ¿Qué hacer si la velocidad de la conexión Wi-Fi varía en diferentes momentos del día?",
+        "solucion": "Verifica si hay interferencias de otros dispositivos o redes, considera la configuración de QoS en el router y contacta a tu proveedor de servicios de Internet para evaluar la velocidad del plan."
+      },
+      {
+        "pregunta": "¿Cómo puedo evitar que mi red sea vulnerable a ataques?",
+        "solucion": "Cambia las contraseñas regularmente, activa el filtrado de direcciones MAC, y actualiza el firmware del router para corregir posibles vulnerabilidades."
+      },
+      {
+        "pregunta": " ¿Cómo soluciono problemas de latencia en juegos en línea?",
+        "solucion": "Utiliza la conexión por cable en lugar de Wi-Fi para reducir la latencia, configura QoS para priorizar el tráfico de juegos, y verifica la velocidad de tu conexión."
+      },
+      {
+        "pregunta": "¿Qué hacer si el router no reconoce algunos dispositivos?",
+        "solucion": "Verifica la compatibilidad de los dispositivos con la red, actualiza el firmware del router y, si es posible, utiliza la asignación de direcciones IP estáticas."
+      },
+      {
+        "pregunta": "¿Cómo sé si mi red Wi-Fi está siendo utilizada por otros sin autorización?",
+        "solucion": "Revisa la lista de dispositivos conectados en la interfaz del router, cambia la contraseña de la red Wi-Fi y activa la seguridad WPA3."
+      },
+      {
+        "pregunta": "¿Cómo soluciono problemas de port forwarding para aplicaciones específicas?",
+        "solucion": "Verifica la configuración de port forwarding en el router, asegúrate de que las reglas sean correctas y revisa si hay conflictos de puertos."
+      },
+      {
+        "pregunta": "¿Qué hacer si experimento desconexiones al transmitir videos o hacer videollamadas?",
+        "solucion": "Asegúrate de tener suficiente ancho de banda, verifica la configuración de QoS, y considera priorizar el tráfico de video en la red."
+      },
+      
+      
+      
+    }
     ]
   }
   
