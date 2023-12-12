@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Cargar la base de conocimientos desde el archivo JSON 
-with open('base_conocimiento.json', 'r') as file:
+with open('base_conocimiento.json', 'r', encoding='utf-8') as file:
     base_conocimiento = json.load(file)
 
 # Función para buscar la mejor coincidencia en la base de conocimientos

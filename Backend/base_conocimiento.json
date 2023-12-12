@@ -2,11 +2,11 @@
   "problemas": [
     {
       "pregunta": "No tengo conexión a Internet",
-      "solucion": "1. Verifica que el cable esté conectado correctamente.\n2. Reinicia el router y el módem."
+      "solucion": "1. Verifica que el cable esté conectado correctamente.\\n2. Reinicia el router y el módem."
     },
     {
       "pregunta": "Experiencia de Internet lenta",
-      "solucion": "1. Verifica la velocidad de tu conexión.\n2. Considera cambiar a una conexión por cable en lugar de inalámbrica."
+      "solucion": "1. Verifica la velocidad de tu conexión.\\n2. Considera cambiar a una conexión por cable en lugar de inalámbrica."
     },
     {
       "pregunta": "¿Cómo mejorar la velocidad de mi conexión Wi-Fi?",
@@ -14,75 +14,75 @@
     },
     {
       "pregunta": "¿Cómo mejorar la seguridad de mi red Wi-Fi?",
-      "solucion": "1. Usa una contraseña segura.\n2. Habilita la encriptación WPA3.\n3. Cambia el nombre predeterminado de la red (SSID)."
+      "solucion": "1. Usa una contraseña segura.\\n2. Habilita la encriptación WPA3.\\n3. Cambia el nombre predeterminado de la red (SSID)."
     },
     {
       "pregunta": "¿Cómo solucionar problemas de asignación de direcciones IP?",
-      "solucion": "1. Verifica la configuración del servidor DHCP.\n2. Evita conflictos de direcciones IP.\n3. Considera la renovación manual de direcciones IP en los dispositivos."
+      "solucion": "1. Verifica la configuración del servidor DHCP.\\n2. Evita conflictos de direcciones IP.\\n3. Considera la renovación manual de direcciones IP en los dispositivos."
     },
     {
       "pregunta": "¿Qué hacer si olvidé la contraseña de mi red Wi-Fi?",
-      "solucion": "1. Restablece el router a la configuración de fábrica.\n2. Configura una nueva contraseña (la información suele estar en la etiqueta del router)."
+      "solucion": "1. Restablece el router a la configuración de fábrica.\\n2. Configura una nueva contraseña (la información suele estar en la etiqueta del router)."
     },
     {
       "pregunta": "¿Cómo saber si mi router ha sido comprometido?",
-      "solucion": "1. Monitorea el tráfico inusual.\n2. Cambia las contraseñas regularmente.\n3. Mantén el firmware actualizado para prevenir vulnerabilidades."
+      "solucion": "1. Monitorea el tráfico inusual.\\n2. Cambia las contraseñas regularmente.\\n3. Mantén el firmware actualizado para prevenir vulnerabilidades."
     },
     {
       "pregunta": "¿Cómo solucionar problemas de conectividad en un dispositivo específico?",
-      "solucion": "1. Reinicia el dispositivo.\n2. Olvida y vuelve a conectar la red Wi-Fi.\n3. Verifica si hay problemas de configuración en el dispositivo."
+      "solucion": "1. Reinicia el dispositivo.\\n2. Olvida y vuelve a conectar la red Wi-Fi.\\n3. Verifica si hay problemas de configuración en el dispositivo."
     },
     {
       "pregunta": "¿Cómo evitar interferencias de otras redes Wi-Fi cercanas?",
-      "solucion": "1. Cambia el canal de transmisión del router.\n2. Utiliza una banda de frecuencia menos congestionada."
+      "solucion": "1. Cambia el canal de transmisión del router.\\n2. Utiliza una banda de frecuencia menos congestionada."
     },
     {
       "pregunta": "¿Cómo solucionar problemas de DNS?",
-      "solucion": "1. Cambia los servidores DNS.\n2. Reinicia el router y el dispositivo.\n3. Verifica la configuración de red en el router."
+      "solucion": "1. Cambia los servidores DNS.\\n2. Reinicia el router y el dispositivo.\\n3. Verifica la configuración de red en el router."
     },
     {
       "pregunta": "¿Qué hacer si hay cortes de energía frecuentes?",
-      "solucion": "1. Usa un respaldo de energía para el router.\n2. Considera un regulador de voltaje.\n3. Verifica problemas eléctricos en la instalación."
+      "solucion": "1. Usa un respaldo de energía para el router.\\n2. Considera un regulador de voltaje.\\n3. Verifica problemas eléctricos en la instalación."
     },
     {
       "pregunta": "¿Qué hacer si el router se calienta demasiado?",
-      "solucion": "1. Asegúrate de que el router esté bien ventilado.\n2. Evita colocarlo cerca de fuentes de calor.\n3. Considera añadir enfriamiento adicional si es necesario."
+      "solucion": "1. Asegúrate de que el router esté bien ventilado.\\n2. Evita colocarlo cerca de fuentes de calor.\\n3. Considera añadir enfriamiento adicional si es necesario."
     },
     {
       "pregunta": "¿Qué hacer si las luces del router parpadean de manera anormal?",
-      "solucion": "1. Consulta el manual del router para interpretar las luces.\n2. Verifica la conexión de cables.\n3. Considera reiniciar el router."
+      "solucion": "1. Consulta el manual del router para interpretar las luces.\\n2. Verifica la conexión de cables.\\n3. Considera reiniciar el router."
     },
     {
       "pregunta": "¿Cómo solucionar problemas de conexión en dispositivos móviles?",
-      "solucion": "1. Reinicia el dispositivo.\n2. Olvida y vuelve a conectar la red Wi-Fi.\n3. Verifica si hay actualizaciones de software disponibles."
+      "solucion": "1. Reinicia el dispositivo.\\n2. Olvida y vuelve a conectar la red Wi-Fi.\\n3. Verifica si hay actualizaciones de software disponibles."
     },
     {
       "pregunta": "¿Qué hacer si la velocidad de la conexión Wi-Fi varía en diferentes momentos del día?",
-      "solucion": "1. Verifica interferencias de otros dispositivos o redes.\n2. Considera la configuración de QoS en el router.\n3. Contacta a tu proveedor de servicios para evaluar la velocidad del plan."
+      "solucion": "1. Verifica interferencias de otros dispositivos o redes.\\n2. Considera la configuración de QoS en el router.\\n3. Contacta a tu proveedor de servicios para evaluar la velocidad del plan."
     },
     {
       "pregunta": "¿Cómo evitar que mi red sea vulnerable a ataques?",
-      "solucion": "1. Cambia las contraseñas regularmente.\n2. Activa el filtrado de direcciones MAC.\n3. Actualiza el firmware del router para corregir posibles vulnerabilidades."
+      "solucion": "1. Cambia las contraseñas regularmente.\\n2. Activa el filtrado de direcciones MAC.\\n3. Actualiza el firmware del router para corregir posibles vulnerabilidades."
     },
     {
       "pregunta": "¿Cómo solucionar problemas de latencia en juegos en línea?",
-      "solucion": "1. Utiliza la conexión por cable en lugar de Wi-Fi para reducir la latencia.\n2. Configura QoS para priorizar el tráfico de juegos.\n3. Verifica la velocidad de tu conexión."
+      "solucion": "1. Utiliza la conexión por cable en lugar de Wi-Fi para reducir la latencia.\\n2. Configura QoS para priorizar el tráfico de juegos.\\n3. Verifica la velocidad de tu conexión."
     },
     {
       "pregunta": "¿Qué hacer si el router no reconoce algunos dispositivos?",
-      "solucion": "1. Verifica la compatibilidad de los dispositivos con la red.\n2. Actualiza el firmware del router.\n3. Utiliza asignación de direcciones IP estáticas si es posible."
+      "solucion": "1. Verifica la compatibilidad de los dispositivos con la red.\\n2. Actualiza el firmware del router.\\n3. Utiliza asignación de direcciones IP estáticas si es posible."
     },
     {
       "pregunta": "¿Cómo saber si mi red Wi-Fi está siendo utilizada por otros sin autorización?",
-      "solucion": "1. Revisa la lista de dispositivos conectados en la interfaz del router.\n2. Cambia la contraseña de la red Wi-Fi.\n3. Activa la seguridad WPA3."
+      "solucion": "1. Revisa la lista de dispositivos conectados en la interfaz del router.\\n2. Cambia la contraseña de la red Wi-Fi.\\n3. Activa la seguridad WPA3."
     },
     {
       "pregunta": "¿Cómo solucionar problemas de port forwarding para aplicaciones específicas?",
-      "solucion": "1. Verifica la configuración de port forwarding en el router.\n2. Asegúrate de que las reglas sean correctas.\n3. Revisa si hay conflictos de puertos."
+      "solucion": "1. Verifica la configuración de port forwarding en el router.\\n2. Asegúrate de que las reglas sean correctas.\\n3. Revisa si hay conflictos de puertos."
     },
     {
       "pregunta": "¿Qué hacer si experimento desconexiones al transmitir videos o hacer videollamadas?",
-      "solucion": "1. Asegúrate de tener suficiente ancho de banda.\n2. Verifica la configuración de QoS.\n3. Considera priorizar el tráfico de video en la red."
+      "solucion": "1. Asegúrate de tener suficiente ancho de banda.\\n2. Verifica la configuración de QoS.\\n3. Considera priorizar el tráfico de video en la red."
     },
     {
       "pregunta": "¿Qué significa si la luz de encendido del router está apagada?",
