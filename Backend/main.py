@@ -15,7 +15,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Cargar la base de conocimientos desde el archivo JSON
+# Cargar la base de conocimientos desde el archivo JSON 
 with open('base_conocimiento.json', 'r') as file:
     base_conocimiento = json.load(file)
 
