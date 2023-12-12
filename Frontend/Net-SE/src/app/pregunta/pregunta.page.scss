@@ -1,4 +1,27 @@
 
+ion-content {
+    --background: url('../../assets/back.png') no-repeat center center fixed;
+    --background-size: cover;
+  }
+  .titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(192, 192, 192);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  
 .solucion{
     white-space: pre-wrap;
 }
+
+ion-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 100%; 
+    --ripple-color: #7416b3; 
+    --background-focused-opacity: 0.10;
+  }

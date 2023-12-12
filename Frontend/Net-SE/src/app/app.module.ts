@@ -16,12 +16,12 @@ import { FastapiService } from './services/fastapi.service'; // Importar ApiServ
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    HttpClientModule, // Agregar HttpClientModule aquí
-    FormsModule // Agregar FormsModule aquí
+    HttpClientModule, 
+    FormsModule 
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    FastapiService // Agregar ApiService a los proveedores
+    FastapiService 
   ],
   bootstrap: [AppComponent],
 })

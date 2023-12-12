@@ -1,23 +1,11 @@
-<ion-header [translucent]="false">
-  <ion-title class="titulo">
-    ConnectWisse
-  </ion-title>
-</ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-    <!-- Aquí colocaremos el logo -->
-    <ion-img class="logo-img" src="assets/icon/logo.png" alt="logo"></ion-img>
 
-    <!-- Agrega un texto debajo de la imagen -->
-    <p class="logo-title">Este es un sistema experto el cual responde preguntas frecuentes sobre los errores mas comunes a la hora de utilizar un Router</p>
-
-     <!-- Agrega el botón "Iniciar" -->
-  <ion-button (click)="iniciar()">Iniciar</ion-button>
-
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-      <ion-title size="large">tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h1 class="titulo">ConnectWisse</h1>
+  <ion-img class="logo-img" src="assets/icon/logo.png" alt="logo"></ion-img>
+  <!-- Agrega un texto debajo de la imagen -->
+  <p class="logo-title">Este es un sistema experto el cual responde preguntas frecuentes sobre los errores mas comunes a la hora de utilizar un Router</p>
+  
+  <!-- Agrega el botón "Iniciar" -->
+  <ion-button color="tertiary" fill="outline" routerLink="/tabs/tab2" routerDirection="root">Iniciar</ion-button>
 </ion-content>

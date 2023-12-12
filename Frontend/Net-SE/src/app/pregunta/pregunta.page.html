@@ -1,17 +1,13 @@
-<ion-header>
-  <meta charset="UTF-8">
-  <ion-toolbar>
-    <ion-title>Sistema Experto</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <h1 class="titulo">ConnectWisse</h1>
   <form (ngSubmit)="enviarPregunta()">
     <ion-item>
       <ion-label position="floating">Pregunta</ion-label>
       <ion-input type="text" [(ngModel)]="pregunta" name="pregunta" required></ion-input>
     </ion-item>
-    <ion-button type="submit" expand="block">Obtener Solución</ion-button>
+    <ion-button color="tertiary" fill="outline" type="submit" expand="block">Obtener Solución</ion-button>
   </form>
   <ion-card *ngIf="solucion">
     <ion-card-header>

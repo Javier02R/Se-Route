@@ -1,30 +1,41 @@
+
+
+ion-content {
+  --background: url('../../assets/back.png') no-repeat center center fixed;
+  --background-size: cover;
+}
+.titulo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(192, 192, 192);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
 ion-img {
   display: block;
   margin: 0 auto; /* Esto centra la imagen horizontalmente */
-  max-width: 500px; /* Establece el ancho máximo de la imagen */
+  max-width: 550px; /* Establece el ancho máximo de la imagen */
   width: 100%; /* Hace que la imagen sea responsiva */
 }
 
-.titulo{
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 15px;
-}
-
 .logo-title {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:monospace;
   color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 1.2em;
-  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 1.3em;
+  text-align: center; 
   margin-top: 15px; /* Espaciado superior para separar la imagen del título */
 }
 
 ion-button {
   display: block;
-  margin: 0 auto; /* Centra el botón horizontalmente */
-  margin-top: 20px; /* Espaciado superior para separar del contenido anterior */
-  font-size: 1.5em; /* Tamaño de fuente del botón */
-  max-width: 200px; /* Ancho máximo del botón */
-  width: 100%; /* Hace que el botón sea responsivo */
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 18px; 
+  max-width: 170px; 
+  width: 100%; 
+  --ripple-color: #7416b3; 
+  --background-focused-opacity: 0.10;
 }
