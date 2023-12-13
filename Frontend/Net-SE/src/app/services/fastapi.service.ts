@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class FastapiService {
-  private apiUrl = 'http://localhost:8000/tab1'; 
+  private apiUrl = 'http://192.168.120.87:8000/tab1'; 
   
 
   constructor(private http: HttpClient) {}

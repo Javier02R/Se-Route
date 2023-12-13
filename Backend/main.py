@@ -6,7 +6,7 @@ from fuzzywuzzy import process
 app = FastAPI()
 
 # Configuración de CORS
-origins = ["http://localhost", "http://localhost:8100"]
+origins = ["http://localhost", "http://192.168.120.87:8100", "http://localhost:8100"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
