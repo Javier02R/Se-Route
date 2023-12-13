@@ -14,9 +14,8 @@ mala configuración, equipo defectuoso u otra eventualidad. El funcionamiento de
 - Ionic + Angular: Interfaz de usuario
 
 ## Capturas de Pantalla
-![Tab - Cuentas](/cuenta.png)
-![Tab - Transferencias](/transferencia.png)
-![Tab - Transferencias](/soporte.png)
+![Tab - Cuentas](/captura1.png)
+![Tab - Transferencias](/captura2.png)
 
 ## Características
 - Recibe y responde preguntas.
